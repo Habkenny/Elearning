@@ -1,0 +1,301 @@
+.admin-materials-page {
+    min-height: 100vh;
+    background: #f7f7fb;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  
+  .admin-materials-header {
+    max-width: 1100px;
+    margin: 0 auto 35px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .admin-materials-back {
+    text-decoration: none;
+    color: #635bff;
+    font-size: 13px;
+  }
+  
+  .admin-materials-label {
+    margin-top: 35px;
+    margin-bottom: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #635bff;
+  }
+  
+  .admin-materials-header h1 {
+    margin: 0;
+    font-size: 30px;
+    color: #181824;
+  }
+  
+  .admin-materials-header > div > p:last-child {
+    margin-top: 8px;
+    color: #777783;
+    font-size: 14px;
+  }
+  
+  .add-material-btn {
+    border: none;
+    background: #635bff;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  
+  .add-material-btn:hover {
+    opacity: 0.9;
+  }
+  
+  .admin-materials-section {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .materials-list-header {
+    background: #fff;
+    border: 1px solid #e8e8ef;
+    border-radius: 12px;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+  }
+  
+  .materials-list-header h2 {
+    margin: 0;
+    font-size: 19px;
+    color: #181824;
+  }
+  
+  .materials-list-header p {
+    margin: 6px 0 0;
+    color: #888894;
+    font-size: 13px;
+  }
+  
+  .admin-materials-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .admin-material-card {
+    background: #fff;
+    border: 1px solid #e8e8ef;
+    border-radius: 12px;
+    padding: 18px 20px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  
+  .material-type-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 9px;
+    background: #f0efff;
+    color: #635bff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  
+  .admin-material-info {
+    flex: 1;
+  }
+  
+  .admin-material-info h3 {
+    margin: 0 0 5px;
+    color: #181824;
+    font-size: 15px;
+  }
+  
+  .admin-material-info p {
+    margin: 0 0 5px;
+    color: #777783;
+    font-size: 12px;
+  }
+  
+  .admin-material-info span {
+    color: #9999a5;
+    font-size: 11px;
+  }
+  
+  .material-actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .material-actions button {
+    border: none;
+    padding: 9px 13px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  
+  .edit-material-btn {
+    background: #f0efff;
+    color: #635bff;
+  }
+  
+  .delete-material-btn {
+    background: #fff0f0;
+    color: #d64545;
+  }
+  
+  .edit-material-btn:hover,
+  .delete-material-btn:hover {
+    opacity: 0.85;
+  }
+  .material-form-card {
+    max-width: 1100px;
+    margin: 0 auto 25px;
+    background: #fff;
+    border: 1px solid #e8e8ef;
+    border-radius: 12px;
+    padding: 25px;
+    box-sizing: border-box;
+  }
+  
+  .material-form-header {
+    margin-bottom: 25px;
+  }
+  
+  .material-form-header h2 {
+    margin: 0;
+    color: #181824;
+    font-size: 20px;
+  }
+  
+  .material-form-header p {
+    margin: 6px 0 0;
+    color: #888894;
+    font-size: 13px;
+  }
+  
+  .material-form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .material-form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .material-form-group label {
+    margin-bottom: 7px;
+    color: #555563;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  .material-form-group input,
+  .material-form-group select,
+  .material-form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #e2e2ea;
+    border-radius: 7px;
+    padding: 12px 13px;
+    background: #f7f7fb;
+    color: #181824;
+    font-family: inherit;
+    font-size: 13px;
+    outline: none;
+  }
+  
+  .material-form-group input:focus,
+  .material-form-group select:focus,
+  .material-form-group textarea:focus {
+    border-color: #635bff;
+    background: #fff;
+  }
+  
+  .full-width {
+    margin-top: 20px;
+  }
+  
+  .material-form-group textarea {
+    resize: vertical;
+  }
+  
+  .material-form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 25px;
+  }
+  
+  .cancel-material-btn,
+  .save-material-btn {
+    border: none;
+    padding: 11px 17px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  .cancel-material-btn {
+    background: #f0f0f4;
+    color: #666675;
+  }
+  
+  .save-material-btn {
+    background: #635bff;
+    color: #fff;
+  }
+  
+  .cancel-material-btn:hover,
+  .save-material-btn:hover {
+    opacity: 0.9;
+  }
+  
+  @media (max-width: 700px) {
+    .material-form-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .material-form-card {
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .admin-materials-page {
+      padding: 25px 18px;
+    }
+  
+    .admin-materials-header {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  
+    .admin-materials-header h1 {
+      font-size: 25px;
+    }
+  
+    .admin-material-card {
+      align-items: flex-start;
+    }
+  
+    .material-actions {
+      flex-direction: column;
+    }
+  }

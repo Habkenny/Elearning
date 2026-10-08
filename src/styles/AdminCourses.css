@@ -1,0 +1,321 @@
+/* =========================
+   ADMIN COURSES PAGE
+========================= */
+
+.admin-courses-page {
+    min-height: 100vh;
+    background: #f7f7fb;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  
+  /* =========================
+     HEADER
+  ========================= */
+  
+  .admin-courses-header {
+    max-width: 1100px;
+    margin: 0 auto 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .admin-courses-back {
+    display: inline-block;
+    margin-bottom: 25px;
+    color: #635bff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  
+  .admin-courses-label {
+    margin: 0 0 8px;
+    color: #635bff;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+  }
+  
+  .admin-courses-header h1 {
+    margin: 0;
+    color: #181824;
+    font-size: 30px;
+  }
+  
+  .admin-courses-header p:last-child {
+    margin: 8px 0 0;
+    color: #777783;
+    font-size: 14px;
+  }
+  
+  /* =========================
+     ADD COURSE BUTTON
+  ========================= */
+  
+  .add-course-btn {
+    border: none;
+    background: #635bff;
+    color: #ffffff;
+    padding: 12px 18px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  
+  .add-course-btn:hover {
+    opacity: 0.9;
+  }
+  
+  /* =========================
+     COURSE FORM
+  ========================= */
+  
+  .course-form-card {
+    max-width: 1100px;
+    margin: 0 auto 25px;
+    padding: 25px;
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 1px solid #e8e8ef;
+    border-radius: 12px;
+  }
+  
+  .course-form-header {
+    margin-bottom: 20px;
+  }
+  
+  .course-form-header h2 {
+    margin: 0;
+    color: #181824;
+    font-size: 18px;
+  }
+  
+  .course-form-header p {
+    margin: 6px 0 0;
+    color: #888894;
+    font-size: 13px;
+  }
+  
+  .course-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .course-form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+  
+  .course-form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .course-form-group label {
+    margin-bottom: 7px;
+    color: #555563;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  
+  .course-form-group input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px 14px;
+    border: 1px solid #e0e0e8;
+    border-radius: 7px;
+    background: #f7f7fb;
+    color: #181824;
+    font-size: 14px;
+    font-family: inherit;
+    outline: none;
+  }
+  
+  .course-form-group input:focus {
+    border-color: #635bff;
+    background: #ffffff;
+  }
+  
+  .course-form-group input::placeholder {
+    color: #aaaab5;
+  }
+  
+  /* =========================
+     FORM BUTTONS
+  ========================= */
+  
+  .course-form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .cancel-course-btn,
+  .save-course-btn {
+    border: none;
+    padding: 11px 17px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  .cancel-course-btn {
+    background: #f0f0f4;
+    color: #666675;
+  }
+  
+  .save-course-btn {
+    background: #635bff;
+    color: #ffffff;
+  }
+  
+  .cancel-course-btn:hover,
+  .save-course-btn:hover {
+    opacity: 0.9;
+  }
+  
+  /* =========================
+     COURSE LIST
+  ========================= */
+  
+  .admin-courses-section {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .courses-list-header {
+    margin-bottom: 18px;
+  }
+  
+  .courses-list-header h2 {
+    margin: 0;
+    color: #181824;
+    font-size: 19px;
+  }
+  
+  .courses-list-header p {
+    margin: 5px 0 0;
+    color: #888894;
+    font-size: 13px;
+  }
+  
+  .admin-courses-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  /* =========================
+     COURSE CARD
+  ========================= */
+  
+  .admin-course-card {
+    background: #ffffff;
+    border: 1px solid #e8e8ef;
+    border-radius: 12px;
+    padding: 18px 20px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  
+  .course-code-box {
+    width: 65px;
+    min-width: 65px;
+    height: 50px;
+    border-radius: 8px;
+    background: #f0efff;
+    color: #635bff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 700;
+  }
+  
+  .admin-course-info {
+    flex: 1;
+  }
+  
+  .admin-course-info h3 {
+    margin: 0;
+    color: #181824;
+    font-size: 15px;
+  }
+  
+  .admin-course-info p {
+    margin: 5px 0;
+    color: #777783;
+    font-size: 12px;
+  }
+  
+  .admin-course-info span {
+    color: #9999a5;
+    font-size: 11px;
+  }
+  
+  .course-actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .edit-course-btn,
+  .delete-course-btn {
+    border: none;
+    padding: 9px 13px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  
+  .edit-course-btn {
+    background: #f0efff;
+    color: #635bff;
+  }
+  
+  .delete-course-btn {
+    background: #fff1f1;
+    color: #c0392b;
+  }
+  
+  .edit-course-btn:hover,
+  .delete-course-btn:hover {
+    opacity: 0.85;
+  }
+  
+  /* =========================
+     RESPONSIVE
+  ========================= */
+  
+  @media (max-width: 750px) {
+    .admin-courses-page {
+      padding: 25px 20px;
+    }
+  
+    .admin-courses-header {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  
+    .course-form-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .admin-course-card {
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+  
+    .course-actions {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,149 @@
+.material-viewer-page {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.viewer-header {
+  margin-bottom: 30px;
+}
+
+.viewer-back-link {
+  display: inline-block;
+  margin-bottom: 25px;
+  color: #635bff;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.viewer-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #635bff;
+  margin-bottom: 8px;
+}
+
+.viewer-header h1 {
+  margin: 0;
+  font-size: 30px;
+  color: #181824;
+}
+
+.viewer-course {
+  margin-top: 8px;
+  color: #777783;
+  font-size: 14px;
+}
+
+.viewer-content {
+  width: 100%;
+}
+
+.viewer-card {
+  background: #ffffff;
+  border: 1px solid #e8e8ef;
+  border-radius: 12px;
+  padding: 35px;
+}
+
+.viewer-section {
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #eeeef3;
+}
+
+.viewer-section:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.viewer-section h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #181824;
+}
+
+.viewer-section p {
+  margin: 0;
+  color: #666675;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.viewer-completion {
+  margin-top: 20px;
+  padding: 20px 25px;
+  background: #ffffff;
+  border: 1px solid #e8e8ef;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.viewer-completion strong {
+  color: #181824;
+  font-size: 14px;
+}
+
+.viewer-completion p {
+  margin: 5px 0 0;
+  color: #888894;
+  font-size: 12px;
+}
+
+.complete-material-btn {
+  border: none;
+  background: #635bff;
+  color: #ffffff;
+  padding: 11px 18px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  opacity: 1;
+}
+
+.complete-material-btn:hover {
+  opacity: 0.9;
+}
+
+.back-viewer-btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: #635bff;
+  color: #ffffff;
+  padding: 11px 18px;
+  border-radius: 7px;
+  text-decoration: none;
+  font-size: 12px;
+}
+.complete-material-btn.completed {
+  background: #2e7d32;
+  color: #ffffff;
+  border: none;
+  opacity: 1;
+  cursor: default;
+}
+@media (max-width: 700px) {
+  .viewer-card {
+    padding: 25px 20px;
+  }
+
+  .viewer-header h1 {
+    font-size: 24px;
+  }
+
+  .viewer-completion {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .complete-material-btn {
+    width: 100%;
+  }
+}

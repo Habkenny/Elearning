@@ -1,0 +1,19 @@
+@import "./Login.css";
+.form-message {
+  padding: 12px 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.error-message {
+  background: #fff1f1;
+  color: #d93025;
+  border: 1px solid #f5c2c2;
+}
+
+.success-message {
+  background: #eefbf3;
+  color: #18864b;
+  border: 1px solid #b9e6ca;
+}
